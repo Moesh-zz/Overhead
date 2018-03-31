@@ -4,3 +4,4 @@ overhead.joinGame.signLine3=First to 25 kills
 overhead.joinGame.signLine4=wins the round.
 
 overhead.gameNotRunning=Game is not running, open inventory to exit to lobby.
+overhead.playerWon=%s won the game!

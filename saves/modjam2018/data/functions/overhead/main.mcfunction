@@ -6,6 +6,8 @@ execute @a[tag=!Dead] ~ ~ ~ execute @s[tag=!Respawn] ~ ~ ~ execute @s[tag=Playin
 function overhead:player/register
 
 function overhead:convert_drops
+function overhead:game_state/check_for_win_condition
+
 function overhead:player/join_game if @a[score_joinGame_min=1]
 function overhead:check_for_game_start_conditions
 

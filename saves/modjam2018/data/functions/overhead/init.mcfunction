@@ -4,6 +4,8 @@
 # Setup objectives
 scoreboard objectives remove SuccessCount
 scoreboard objectives add SuccessCount dummy
+	scoreboard players add @a SuccessCount 0
+	stats entity @a set SuccessCount @s SuccessCount
 
 scoreboard objectives remove AffectedItems
 scoreboard objectives add AffectedItems dummy
@@ -32,16 +34,10 @@ summon minecraft:area_effect_cloud 109 18 140 {CustomName:SpawnPoint,Tags:[],Cus
 summon minecraft:area_effect_cloud 98 18 141 {CustomName:SpawnPoint,Tags:[],CustomNameVisible:1b, Duration:2147483647}
 summon minecraft:area_effect_cloud 98 18 130 {CustomName:SpawnPoint,Tags:[],CustomNameVisible:1b, Duration:2147483647}
 
-
 kill @e[type=area_effect_cloud,name=Main]
 summon minecraft:area_effect_cloud 128 3 128 {CustomName:Main,Tags:[],CustomNameVisible:1b, Duration:2147483647}
 	scoreboard players add @e[type=area_effect_cloud,name=Main] SuccessCount 0
 	stats entity @e[type=area_effect_cloud,name=Main] set SuccessCount @s SuccessCount
-
-
-# Setup players
-scoreboard players add @a SuccessCount 0
-stats entity @a set SuccessCount @s SuccessCount
 
 function overhead:setup_for_testing
 function overhead:setup_signs
