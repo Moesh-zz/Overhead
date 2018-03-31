@@ -5,6 +5,11 @@
 scoreboard objectives remove SuccessCount
 scoreboard objectives add SuccessCount dummy
 
+scoreboard objectives remove AffectedItems
+scoreboard objectives add AffectedItems dummy
+	scoreboard players add @a AffectedItems 0
+	stats entity @a set AffectedItems @s AffectedItems
+
 scoreboard objectives remove playerSneaking
 scoreboard objectives add playerSneaking stat.sneakTime
 
