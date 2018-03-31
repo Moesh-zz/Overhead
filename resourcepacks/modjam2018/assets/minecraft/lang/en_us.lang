@@ -2,3 +2,5 @@ overhead.joinGame.signLine1=[Join Game]
 overhead.joinGame.signLine2=
 overhead.joinGame.signLine3=First to 25 kills
 overhead.joinGame.signLine4=wins the round.
+
+overhead.gameNotRunning=Game is not running, open inventory to exit to lobby.
