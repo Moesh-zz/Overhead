@@ -1,2 +1,2 @@
-setblock 124 5 130 minecraft:wall_sign 4
-blockdata 124 5 130 {Text1: "{\"translate\":\"overhead.joinGame.signLine1\"}", Text2: "{\"translate\":\"overhead.joinGame.signLine2\"}", Text3: "{\"translate\":\"overhead.joinGame.signLine3\"}", Text4: "{\"translate\":\"overhead.joinGame.signLine4\", \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/trigger joinGame set 1\"} }"}
+setblock 174 72 169 minecraft:wall_sign 4
+blockdata 174 72 169 {Text1: "{\"translate\":\"overhead.joinGame.signLine1\"}", Text2: "{\"translate\":\"overhead.joinGame.signLine2\"}", Text3: "{\"translate\":\"overhead.joinGame.signLine3\"}", Text4: "{\"translate\":\"overhead.joinGame.signLine4\", \"clickEvent\":{\"action\":\"run_command\", \"value\":\"/trigger joinGame set 1\"} }"}
