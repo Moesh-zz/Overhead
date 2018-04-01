@@ -6,6 +6,8 @@ function overhead:player/flag_dead_players
 execute @p[tag=Respawn] ~ ~ ~ function overhead:player/respawn
 execute @a[tag=Playing] ~ ~ ~ function overhead:player/checkfor_items_and_refill
 
+function overhead:fireball_spawn_timer
+
 function overhead:convert_drops
 function overhead:game_state/check_for_win_condition
 

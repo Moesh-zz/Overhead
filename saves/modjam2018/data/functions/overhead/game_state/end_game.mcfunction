@@ -1,5 +1,6 @@
 scoreboard players reset * playerKillCount
 scoreboard objectives setdisplay sidebar
+kill @e[type=fireball]
 
 # Reset level
 setblock 150 19 149 minecraft:redstone_block
