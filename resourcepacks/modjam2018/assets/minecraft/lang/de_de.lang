@@ -1,0 +1,7 @@
+overhead.joinGame.signLine1=[Spiel beitreten]
+overhead.joinGame.signLine2=Der Erste mit
+overhead.joinGame.signLine3=25 Kills gewinnt
+overhead.joinGame.signLine4=die Runde.
+
+overhead.gameNotRunning=Das Spiel läuft nicht. Öffne dein Inventar, um zur Lobby zurückzukehren.
+overhead.playerWon=%s hat das Spiel gewonnen!
