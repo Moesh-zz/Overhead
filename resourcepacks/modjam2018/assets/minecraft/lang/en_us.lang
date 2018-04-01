@@ -1,3 +1,14 @@
+tile.blockGold.name=Grid Block (Rich Gold) #dev
+tile.blockIron.name=Grid Block (Mountain Mist) #dev
+tile.blockCoal.name=Grid Block (Tautara) #dev
+tile.blockDiamond.name=Grid Block (Science Blue) #dev
+tile.blockEmerald.name=Grid Block (Pakistan Green) #dev
+tile.blockRedstone.name=Grid Block (Red Devil) #dev
+tile.blockLapis.name=Grid Block (Byzantium) #dev
+
+tile.lightgem.name=Green Screen #dev
+tile.seaLantern.name=Green Screen #dev
+
 overhead.joinGame.signLine1=[Join Game]
 overhead.joinGame.signLine2=
 overhead.joinGame.signLine3=First to 25 kills

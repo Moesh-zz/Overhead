@@ -1,0 +1,8 @@
+{
+	"__comment": "Designed by Moesh http://moesh.ca/",
+	"parent": "block/cube_all",
+	"ambientocclusion": false,
+	"textures" : {
+		"all": "moesh/dev/solid_green"
+	}
+}
