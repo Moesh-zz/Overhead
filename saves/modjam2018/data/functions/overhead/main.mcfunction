@@ -3,8 +3,8 @@ execute @a[tag=!Dead] ~ ~ ~ execute @s[tag=!Respawn] ~ ~ ~ execute @s[tag=Playin
 function overhead:player/register
 
 function overhead:player/flag_dead_players
-execute @p[tag=Respawn] ~ ~ ~ function overhead:player/respawn
-execute @a[tag=Playing] ~ ~ ~ function overhead:player/checkfor_items_and_refill
+execute @a[tag=Respawn] ~ ~ ~ function overhead:player/respawn
+function overhead:player/checkfor_items_and_refill if @s[tag=RefillItems]
 
 function overhead:fireball_spawn_timer
 
