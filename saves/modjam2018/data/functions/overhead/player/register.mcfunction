@@ -2,6 +2,7 @@
 clear @a[tag=!Registered]
 xp -999999 @a[tag=!Registered]
 xp -999999L @a[tag=!Registered]
+gamemode adventure @a[tag=!Registered]
 scoreboard players tag @a[tag=!Registered] remove Playing
 scoreboard players tag @a[tag=!Registered] remove AnchorPresent
 scoreboard players tag @a[tag=!Registered] remove BarrierStillPresent
@@ -22,6 +23,7 @@ scoreboard players add @a[tag=!Registered] AffectedItems 0
 stats entity @a[tag=!Registered] set AffectedItems @s AffectedItems
 
 # Give things
+scoreboard players tag @a[tag=!Registered] add ApplyEffects
 execute @a[tag=!Registered] ~ ~ ~ function overhead:player/apply_effects
 scoreboard players enable @a[tag=!Registered] joinGame
 scoreboard players tag @a[tag=!Registered] add Registered
