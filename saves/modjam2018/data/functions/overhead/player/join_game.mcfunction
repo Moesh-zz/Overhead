@@ -4,10 +4,13 @@ scoreboard players tag @a[score_joinGame_min=1] add SendPlayerToGame
 effect @a[tag=SendPlayerToGame] minecraft:weakness 0
 effect @a[tag=SendPlayerToGame] minecraft:saturation 0
 effect @a[tag=SendPlayerToGame] minecraft:regeneration 0
+effect @a[tag=SendPlayerToGame] minecraft:resistance 0
 
 scoreboard players tag @a[tag=SendPlayerToGame] add Respawn
 scoreboard players tag @a[tag=SendPlayerToGame] add RefillItems
 scoreboard players reset @a[tag=SendPlayerToGame] joinGame
+scoreboard players add @a[tag=SendPlayerToGame] playerKillCount 0
+
 tp @a[tag=SendPlayerToGame] @r[type=area_effect_cloud,name=SpawnPoint]
 gamemode adventure @a[tag=SendPlayerToGame]
 tellraw @a {"translate":"overhead.joinedGame","color":"light_purple","with":[{"selector":"@a[tag=SendPlayerToGame]","color":"white"}]}

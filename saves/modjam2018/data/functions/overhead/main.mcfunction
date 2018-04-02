@@ -1,5 +1,5 @@
-function overhead:player/logged_off if @a[score_leaveGame_min=1]
 execute @a[tag=!Dead] ~ ~ ~ execute @s[tag=!Respawn] ~ ~ ~ execute @s[tag=Playing] ~ ~ ~ function overhead:player/checkfor_player_leave_game
+function overhead:player/logged_off if @a[score_leaveGame_min=1]
 function overhead:player/register
 
 function overhead:player/flag_dead_players

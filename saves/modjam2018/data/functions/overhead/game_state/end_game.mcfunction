@@ -1,4 +1,7 @@
 scoreboard players reset * playerKillCount
+scoreboard players tag @a add LeaveGame
+function overhead:player/leave_game
+scoreboard players tag @a remove Registered
 scoreboard objectives setdisplay sidebar
 kill @e[type=fireball]
 
