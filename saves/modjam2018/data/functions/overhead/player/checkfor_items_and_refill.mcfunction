@@ -20,5 +20,5 @@ scoreboard players tag @a[tag=RefillSword] remove RefillSword
 replaceitem entity @a[tag=RefillBarrier] slot.inventory.8 minecraft:barrier
 scoreboard players tag @a[tag=RefillBarrier] remove RefillBarrier
 
-replaceitem entity @a[tag=RefillBoots] slot.armor.feet minecraft:diamond_boots 1 0 {HideFlags:56,AttributeModifiers:[{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:2,Operation:0,UUIDLeast:391779,UUIDMost:643994,Slot:"feet"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:0,Operation:0,UUIDLeast:291313,UUIDMost:472643,Slot:"feet"}],Unbreakable:1,ench:[{id:2,lvl:255}]}
+replaceitem entity @a[tag=RefillBoots] slot.armor.feet minecraft:diamond_boots 1 0 {HideFlags:56,AttributeModifiers:[{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:1,Operation:0,UUIDLeast:391779,UUIDMost:643994,Slot:"feet"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:0,Operation:0,UUIDLeast:291313,UUIDMost:472643,Slot:"feet"}],Unbreakable:1,ench:[{id:2,lvl:255}]}
 scoreboard players tag @a[tag=RefillBoots] remove RefillBoots
