@@ -9,6 +9,7 @@ tile.blockLapis.name=Grid Block (Byzantium) #dev
 tile.lightgem.name=Green Screen #dev
 tile.seaLantern.name=Green Screen #dev
 
+# All signs can only have 15 characters per line, so all lines are translated to allow room.
 overhead.joinGame.signLine1=[Join Game]
 overhead.joinGame.signLine2=
 overhead.joinGame.signLine3=First to 25 kills
