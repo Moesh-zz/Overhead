@@ -6,5 +6,5 @@ kill @e[type=fireball]
 setblock 150 19 149 minecraft:redstone_block
 setblock 150 19 149 minecraft:stone
 
-tellraw @a {"translate":"overhead.gameNotRunning","color":"red"}
+execute @e[type=area_effect_cloud,name=Main,tag=!EndGame] ~ ~ ~ tellraw @a {"translate":"overhead.needSecondPlayer","color":"red"}
 scoreboard players tag @e[type=area_effect_cloud,name=Main,tag=GameInProgress] remove GameInProgress
