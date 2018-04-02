@@ -55,6 +55,7 @@ summon minecraft:area_effect_cloud 189 28 157 {CustomName:SpawnPoint,Tags:[],Cus
 
 # Set-up Fireball spawning
 kill @e[type=area_effect_cloud,name=FireballSpawn]
+kill @e[type=fireball]
 summon minecraft:area_effect_cloud 212 29 169 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
 summon minecraft:area_effect_cloud 200 35 167 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
 summon minecraft:area_effect_cloud 200 34 154 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}

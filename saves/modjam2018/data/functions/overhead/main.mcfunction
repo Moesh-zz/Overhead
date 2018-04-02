@@ -7,7 +7,7 @@ execute @a[tag=Respawn] ~ ~ ~ function overhead:player/respawn
 function overhead:player/checkfor_items_and_refill
 function overhead:player/refill_hunger_when_low
 
-function overhead:fireball_spawn_timer
+function overhead:fireball_spawn_timer if @e[type=area_effect_cloud,name=Main,tag=GameInProgress]
 function overhead:convert_drops
 function overhead:game_state/check_for_win_condition
 
