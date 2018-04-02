@@ -56,25 +56,25 @@ summon minecraft:area_effect_cloud 189 28 157 {CustomName:SpawnPoint,Tags:[],Cus
 # Set-up Fireball spawning
 kill @e[type=area_effect_cloud,name=FireballSpawn]
 kill @e[type=fireball]
-summon minecraft:area_effect_cloud 212 29 169 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 200 35 167 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 200 34 154 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 221 50 161 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 202 38 189 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 187 22 178 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 190 50 164 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 224 27 191 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 181 37 184 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 200 27 203 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 224 48 209 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 201 43 213 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 163 44 177 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 174 41 202 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 175 42 213 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 189 25 230 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 188 44 229 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 158 28 226 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
-summon minecraft:area_effect_cloud 158 46 227 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
+summon minecraft:area_effect_cloud 212 29 169 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 200 35 167 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 200 34 154 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 221 50 161 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 202 38 189 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 187 22 178 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 190 50 164 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 224 27 191 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 181 37 184 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 200 27 203 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 224 48 209 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 201 43 213 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 163 44 177 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 174 41 202 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 175 42 213 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 189 25 230 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 188 44 229 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 158 28 226 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 158 46 227 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:0b, Duration:2147483647}
 	scoreboard players operation @e[type=area_effect_cloud,name=FireballSpawn] fireballTimer = RespawnTime fireballTimer
 	scoreboard players add @e[type=area_effect_cloud,name=FireballSpawn] SuccessCount 0
 	stats entity @e[type=area_effect_cloud,name=FireballSpawn] set SuccessCount @s SuccessCount
