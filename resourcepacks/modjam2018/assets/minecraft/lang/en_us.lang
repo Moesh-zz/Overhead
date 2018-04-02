@@ -15,5 +15,8 @@ overhead.joinGame.signLine2=
 overhead.joinGame.signLine3=First to 25 kills
 overhead.joinGame.signLine4=wins the round.
 
+overhead.joinedGame=>>> %s entered the arena.
+overhead.leftGame=<<< %s left the arena.
+
 overhead.gameNotRunning=Game is not running, open inventory to exit to lobby.
 overhead.playerWon=%s won the game!
