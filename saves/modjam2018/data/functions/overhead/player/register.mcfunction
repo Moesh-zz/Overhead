@@ -10,6 +10,7 @@ scoreboard players tag @a[tag=!Registered] remove Rising
 scoreboard players tag @a[tag=!Registered] remove Sinking
 
 tp @a[tag=!Registered] 171 71 169
+spawnpoint @a[tag=!Registered] 171 71 169
 scoreboard players tag @a[tag=!Registered] add SetToHover
 
 # Register player in the food scoreboard
