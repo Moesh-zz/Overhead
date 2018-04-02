@@ -7,6 +7,7 @@ scoreboard players tag * remove BarrierStillPresent
 scoreboard players tag * remove Hovering
 scoreboard players tag * remove Rising
 scoreboard players tag * remove Sinking
+scoreboard players tag * remove Registered
 
 # Setup objectives
 scoreboard objectives remove SuccessCount
