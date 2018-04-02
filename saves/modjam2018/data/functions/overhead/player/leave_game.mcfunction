@@ -1,5 +1,6 @@
 scoreboard players tag @a[tag=LeaveGame] remove Playing
 scoreboard players tag @a[tag=LeaveGame] remove Registered
+scoreboard players tag @a[tag=LeaveGame] add ApplyEffects
 tp @a[tag=LeaveGame] 171 71 169
 spawnpoint @a[tag=LeaveGame] 171 71 169
 clear @a[tag=LeaveGame]
