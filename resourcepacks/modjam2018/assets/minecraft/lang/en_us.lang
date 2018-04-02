@@ -9,6 +9,7 @@ tile.blockLapis.name=Grid Block (Byzantium) #dev
 tile.lightgem.name=Green Screen #dev
 tile.seaLantern.name=Green Screen #dev
 
+
 # All lines of signs translated to allow translators to move things around.
 overhead.joinGame.signLine1=[Join Game]
 overhead.joinGame.signLine2=
@@ -20,3 +21,6 @@ overhead.leftGame=<<< %s left the arena.
 
 overhead.gameNotRunning=Game is not running, open inventory to exit to lobby.
 overhead.playerWon=%s won the game!
+
+
+enchantment.level.255=CCLV
