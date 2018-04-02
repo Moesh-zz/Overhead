@@ -1,5 +1,13 @@
 # summon fireball ~ ~1 ~ {direction:[0.0,0.0,0.0],ExplosionPower:1}
 
+# Remove persistent tags
+scoreboard players tag * remove Playing
+scoreboard players tag * remove AnchorPresent
+scoreboard players tag * remove BarrierStillPresent
+scoreboard players tag * remove Hovering
+scoreboard players tag * remove Rising
+scoreboard players tag * remove Sinking
+
 # Setup objectives
 scoreboard objectives remove SuccessCount
 scoreboard objectives add SuccessCount dummy
