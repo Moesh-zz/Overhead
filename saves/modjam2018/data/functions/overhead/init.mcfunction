@@ -94,4 +94,5 @@ function overhead:setup_for_testing
 
 # Setup gamerules
 gamerule keepInventory true
+gamerule randomTickSpeed 1000
 gamerule gameLoopFunction overhead:main
