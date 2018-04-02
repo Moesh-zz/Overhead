@@ -17,4 +17,6 @@ execute @a[tag=CheckForState] ~ ~ ~ execute @s[tag=AnchorPresent] ~ ~ ~ scoreboa
 execute @a[tag=CheckForState] ~ ~ ~ execute @s[tag=AnchorPresent] ~ ~ ~ scoreboard players tag @s[tag=GlassIsTooClose] add SetToSink
 execute @a[tag=CheckForState] ~ ~ ~ execute @s[tag=!AnchorPresent] ~ ~ ~ scoreboard players tag @s[tag=GlassIsTooClose] add SetToSink
 execute @a[tag=CheckForState] ~ ~ ~ execute @s[tag=!AnchorPresent] ~ ~ ~ scoreboard players tag @s[tag=!GlassIsTooClose] add SetToRise
+scoreboard players tag @a[tag=CheckForState] remove AnchorPresent
+scoreboard players tag @a[tag=CheckForState] remove GlassIsTooClose
 scoreboard players tag @a[tag=CheckForState] remove CheckForState
