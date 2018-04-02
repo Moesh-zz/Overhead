@@ -1,7 +1,11 @@
+# Remove pixkaxe is game in not in progress
+execute @e[type=area_effect_cloud,name=Main,tag=!GameInProgress] ~ ~ ~ execute @a[tag=Playing] ~ ~ ~ clear @s minecraft:diamond_pickaxe -1 0
+execute @e[type=area_effect_cloud,name=Main,tag=!GameInProgress] ~ ~ ~ clear @a[tag=Playing,score_AffectedItems_min=1] minecraft:diamond_pickaxe
+
 # Determine what items need to be refilled
 scoreboard players tag @a[tag=Playing] add RefillItems
-execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:diamond_pickaxe -1 0
-scoreboard players tag @a[tag=RefillItems,score_AffectedItems=0] add RefillPickaxe
+execute @e[type=area_effect_cloud,name=Main,tag=GameInProgress] ~ ~ ~ execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:diamond_pickaxe -1 0
+execute @e[type=area_effect_cloud,name=Main,tag=GameInProgress] ~ ~ ~ scoreboard players tag @a[tag=RefillItems,score_AffectedItems=0] add RefillPickaxe
 execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:barrier -1 0
 scoreboard players tag @a[tag=RefillItems,score_AffectedItems=0] add RefillBarrier
 execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:diamond_boots -1 0
