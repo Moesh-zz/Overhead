@@ -28,7 +28,6 @@ scoreboard objectives add leaveGame stat.leaveGame
 
 # Setup spawnpoints
 kill @e[type=area_effect_cloud,name=SpawnPoint]
-
 summon minecraft:area_effect_cloud 165 43 156  {CustomName:SpawnPoint,Tags:[],CustomNameVisible:0b, Duration:2147483647}
 summon minecraft:area_effect_cloud 180 41 179 {CustomName:SpawnPoint,Tags:[],CustomNameVisible:0b, Duration:2147483647}
 summon minecraft:area_effect_cloud 163 41 197 {CustomName:SpawnPoint,Tags:[],CustomNameVisible:0b, Duration:2147483647}
@@ -42,6 +41,7 @@ summon minecraft:area_effect_cloud 222 30 152 {CustomName:SpawnPoint,Tags:[],Cus
 summon minecraft:area_effect_cloud 202 44 152 {CustomName:SpawnPoint,Tags:[],CustomNameVisible:0b, Duration:2147483647}
 summon minecraft:area_effect_cloud 189 28 157 {CustomName:SpawnPoint,Tags:[],CustomNameVisible:0b, Duration:2147483647}
 
+# Set-up Fireball spawning
 kill @e[type=area_effect_cloud,name=FireballSpawn]
 summon minecraft:area_effect_cloud 212 29 169 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
 summon minecraft:area_effect_cloud 200 35 167 {CustomName:FireballSpawn,Tags:[],CustomNameVisible:1b, Duration:2147483647}
@@ -66,11 +66,16 @@ summon minecraft:area_effect_cloud 158 46 227 {CustomName:FireballSpawn,Tags:[],
 	scoreboard players add @e[type=area_effect_cloud,name=FireballSpawn] SuccessCount 0
 	stats entity @e[type=area_effect_cloud,name=FireballSpawn] set SuccessCount @s SuccessCount
 
+# Set-up Main entity
 kill @e[type=area_effect_cloud,name=Main]
 summon minecraft:area_effect_cloud 128 3 128 {CustomName:Main,Tags:[],CustomNameVisible:0b, Duration:2147483647}
 	scoreboard players add @e[type=area_effect_cloud,name=Main] SuccessCount 0
 	stats entity @e[type=area_effect_cloud,name=Main] set SuccessCount @s SuccessCount
 
-function overhead:setup_for_testing
+# Additional set-up functions
 function overhead:setup_signs
+function overhead:setup_for_testing
+
+# Setup gamerules
+gamerule keepInventory true
 gamerule gameLoopFunction overhead:main
