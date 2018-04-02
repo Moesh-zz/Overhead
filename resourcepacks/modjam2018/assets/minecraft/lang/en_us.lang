@@ -18,8 +18,13 @@ overhead.joinGame.signLine4=wins the round.
 
 overhead.joinedGame=>>> %s entered the arena.
 overhead.leftGame=<<< %s left the arena.
+overhead.exitViaInventory=To return to lobby, open inventory and pick-up the %s icon.
+tile.barrier.name=Leave game
 
-overhead.gameNotRunning=Game is not running, open inventory to exit to lobby.
+overhead.gameStarted=Game has begun!
+overhead.gameEnded=Game has ended!
+
+overhead.gameNotRunning=Game will begin when a second player joins., open inventory to exit to lobby.
 overhead.playerWon=%s won the game!
 
 
