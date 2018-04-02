@@ -1,7 +1,31 @@
+tile.blockGold.name=Rasterblock (reiches Gold) #dev
+tile.blockIron.name=Rasterblock (Bergnebel) #dev
+tile.blockCoal.name=Rasterblock (Tautara) #dev
+tile.blockDiamond.name=Rasterblock (wissenschaftliches Blau) #dev
+tile.blockEmerald.name=Rasterblock (pakistanisches Grün) #dev
+tile.blockRedstone.name=Rasterblock (roter Teufel) #dev
+tile.blockLapis.name=Rasterblock (Byzantium) #dev
+
+tile.lightgem.name=Greenscreen #dev
+tile.seaLantern.name=Greenscreen #dev
+
+
+# All lines of signs translated to allow translators to move things around.
 overhead.joinGame.signLine1=[Spiel beitreten]
 overhead.joinGame.signLine2=Der Erste mit
 overhead.joinGame.signLine3=25 Kills gewinnt
 overhead.joinGame.signLine4=die Runde.
 
-overhead.gameNotRunning=Das Spiel läuft nicht. Öffne dein Inventar, um zur Lobby zurückzukehren.
+overhead.joinedGame=>>> %s hat die Arena betreten.
+overhead.leftGame=<<< %s hat die Arena verlassen.
+overhead.exitViaInventory=Um zur Lobby zurückzukehren, öffne dein Inventar und klick auf das %s-Symbol.
+tile.barrier.name=Spiel verlassen
+
+overhead.gameStarted=Das Spiel hat begonnen!
+overhead.gameEnded=Das Spiel wurde beendet!
+
+overhead.needSecondPlayer=Das Spiel wird beginnen sobald ein zweiter Spieler die Arena betritt.
 overhead.playerWon=%s hat das Spiel gewonnen!
+
+
+enchantment.level.255=CCLV
