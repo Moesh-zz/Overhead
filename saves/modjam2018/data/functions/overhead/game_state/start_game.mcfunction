@@ -1,7 +1,7 @@
 scoreboard players reset * playerKillCount
 scoreboard objectives setdisplay sidebar playerKillCount
 kill @e[type=fireball]
-execute @e[type=area_effect_cloud,name=FireballSpawn] ~ ~ ~ summon fireball ~ ~ ~ {direction:[0.0,0.0,0.0],ExplosionPower:1}
+scoreboard players set @e[type=area_effect_cloud,name=FireballSpawn] fireballTimer 0
 tellraw @a {"translate":"overhead.gameStarted","color":"red"}
 
 scoreboard players add @a[tag=Playing] playerKillCount 0
