@@ -34,6 +34,9 @@ scoreboard objectives add fireballTimer dummy
 scoreboard objectives remove leaveGame
 scoreboard objectives add leaveGame stat.leaveGame
 
+scoreboard objectives remove food
+scoreboard objectives add food food
+
 # Setup spawnpoints
 kill @e[type=area_effect_cloud,name=SpawnPoint]
 summon minecraft:area_effect_cloud 165 43 156  {CustomName:SpawnPoint,Tags:[],CustomNameVisible:0b, Duration:2147483647}
