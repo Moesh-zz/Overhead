@@ -35,6 +35,9 @@ scoreboard objectives add fireballTimer dummy
 scoreboard objectives remove leaveGame
 scoreboard objectives add leaveGame stat.leaveGame
 
+scoreboard objectives remove damageDealt
+scoreboard objectives add damageDealt stat.damageDealt
+
 scoreboard objectives remove food
 scoreboard objectives add food food
 
