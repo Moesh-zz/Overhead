@@ -4,7 +4,7 @@ function overhead:player/register
 
 function overhead:player/flag_dead_players
 execute @a[tag=Respawn] ~ ~ ~ function overhead:player/respawn
-function overhead:player/checkfor_items_and_refill if @s[tag=RefillItems]
+function overhead:player/checkfor_items_and_refill
 
 function overhead:fireball_spawn_timer
 

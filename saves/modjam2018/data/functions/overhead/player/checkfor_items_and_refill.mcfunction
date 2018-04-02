@@ -1,3 +1,5 @@
+scoreboard players tag @a[tag=Playing] add RefillItems
+
 # Determine what items need to be refilled
 execute @a[tag=RefillItems] ~ ~ ~ clear @s minecraft:diamond_pickaxe -1 0
 scoreboard players tag @a[tag=RefillItems,score_AffectedItems=0] add RefillPickaxe
