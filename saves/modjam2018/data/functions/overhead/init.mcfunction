@@ -40,7 +40,7 @@ scoreboard objectives add food food
 
 # Setup spawnpoints
 kill @e[type=area_effect_cloud,name=SpawnPoint]
-summon minecraft:area_effect_cloud 165 43 156  {CustomName:SpawnPoint,Tags:[],CustomNameVisible:0b, Duration:2147483647}
+summon minecraft:area_effect_cloud 165 43 156 {CustomName:SpawnPoint,Tags:[],CustomNameVisible:0b, Duration:2147483647}
 summon minecraft:area_effect_cloud 180 41 179 {CustomName:SpawnPoint,Tags:[],CustomNameVisible:0b, Duration:2147483647}
 summon minecraft:area_effect_cloud 163 41 197 {CustomName:SpawnPoint,Tags:[],CustomNameVisible:0b, Duration:2147483647}
 summon minecraft:area_effect_cloud 168 48 210 {CustomName:SpawnPoint,Tags:[],CustomNameVisible:0b, Duration:2147483647}
